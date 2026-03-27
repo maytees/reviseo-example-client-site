@@ -49,7 +49,7 @@ export default function Page() {
               if (e.__Reviseo) return
               e.__Reviseo = {}
               const i = t.createElement("script")
-              i.src = "https://www.reviseo.app/reviseo.js"
+              i.src = "https://www.reviseo.app/cdn/reviseo.js"
               const n = t.getElementsByTagName("script")[0]
               n.parentNode.insertBefore(i, n)
             })(window, document))
